@@ -38,6 +38,11 @@ header {
     object-fit: contain;
 }
 
+.navstyle a.active {
+    border-bottom: 0.2em solid #0E0D0C; 
+    border-radius: 0.2em;
+}
+
 footer {
     background-color: #326273;
     margin: 0;
@@ -52,7 +57,7 @@ footer {
     object-fit: contain;
 }
 
-html, body {
+html, body {    
     margin: 0;
     padding: 0;
     text-align: center;
@@ -71,7 +76,7 @@ html, body {
 }
 
 .h1-inleiding {
-    border: 2px solid #F15E2D; 
+    border: 2px solid #0E0D0C; 
     border-radius: 0.35em;
     font-family: montserrat;
     font-size: 3em;
@@ -154,7 +159,7 @@ html, body {
     border-radius: 0.9em;
     background-color: #EF5F2E;
     margin: 1em 0; 
-    padding: 1em; 
+    padding: 0.2em; 
     align-items: center;
 }
 
@@ -169,13 +174,13 @@ html, body {
 
 .handleidingen-h1{
     font-family: montserrat;
-    font-size: 2em; 
+    font-size: 1.8em;
     font-weight: bold; 
 }
 
 .handleiding-box {
     display: flex;
-    background-color: #EF5F2E;
+    background-color: #BFD3C1;
     border: 0.2em solid #0E0D0C;
     border-radius: 1em;
     margin: 1.5em;
@@ -206,9 +211,10 @@ html, body {
 .handleiding-info h2 {
     font-family: montserrat;
     font-size: 0.7em;
-    color: #BFD3C1;
-    text-shadow: 0.0625em 0.0625em 0 #0E0D0C, -0.0625em -0.0625em 0 #0E0D0C;
+    font-weight: 6000;
+    color: #0E0D0C;
     margin: 0;
+    text-align: left;
 }
 
 .handleiding-info p {
@@ -217,6 +223,7 @@ html, body {
     margin: 0.5em 0;
     color: #0E0D0C;
     font-weight: bold;
+    text-align: left;
 }
 
 .artikel {
@@ -270,4 +277,66 @@ html, body {
 
 .terug-knop:hover {
     background-color: #F15E2D;
+}
+
+.onderdelen-main {
+    margin-top: 7em;
+    padding: 1em;
+}
+
+.onderdelen-h1 {
+    font-family: montserrat;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 5.2em;
+}
+
+.onderdelen-fiets {
+  width: 20em;
+  height: 16em;
+  object-fit: contain;
+}
+  
+.onderdelen-box {
+    display: flex;
+    background-color: #BFD3C1;
+    border: 0.2em solid #0E0D0C;
+    border-radius: 0.9em;
+    margin: 1.5em;
+    padding: 0.5em;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    height: 4em;
+}
+  
+.onderdelen-box img {
+    width: 4em; 
+    height: 4em; 
+    object-fit: contain;
+    border-radius: 1em 0 0 1em;
+    margin-right: 1em;
+}
+  
+.onderdelen-info {
+    flex: 1;
+}
+  
+.onderdelen-info h2 {
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 6000;
+    color: #0E0D0C;
+    margin: 0;
+    text-align: left;
+}
+
+.onderdelen-info p {
+    font-family: opensans;
+    font-size: 0.5em;
+    margin: 0.5em 0;
+    color: #0E0D0C;
+    font-weight: bold;
+    text-align: left;
 }
