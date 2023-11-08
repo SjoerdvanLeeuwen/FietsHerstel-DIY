@@ -1,0 +1,273 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../csselementen/Montserrat-VariableFont_wght.woff2) format('woff2'),
+         url(../csselementen/Montserrat-VariableFont_wght.woff) format('woff');
+    font-family: opensans;
+    src: url(../csselementen/OpenSans-VariableFont_wdth\,wght.woff2) format('woff2'),
+         url(../csselementen/OpenSans-VariableFont_wdth\,wght.woff) format('woff');
+}
+
+header {
+    background-color: #BFD3C1;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 0.2em solid #0E0D0C;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 999; 
+}
+
+.navstyle {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navstyle li {
+    display: inline;
+    margin: 0 0.625em;
+    padding: 0;
+}
+
+.navstyle li img {
+    width: 4em;
+    height: 4em;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #326273;
+    margin: 0;
+    padding: 1em 0;
+    height: 4em;
+    border-top: 0.2em solid #0E0D0C;
+}
+
+.logo {
+    width: 20em;
+    height: 18em;
+    object-fit: contain;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #68A690;
+}
+
+.inleiding {
+    text-align: center; 
+    border-bottom: 0.2em solid #0E0D0C; 
+    background-image: url('../csselementen/home-achtergrond.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 2em; 
+    margin: 0;
+    padding-top: 7em;
+}
+
+.h1-inleiding {
+    border: 2px solid #F15E2D; 
+    border-radius: 0.35em;
+    font-family: montserrat;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    background-color: #BFD3C1;
+}
+
+.p-inleiding {
+    font-family: opensans;
+    font-size: 0,3em;
+    color: #BFD3C1;;
+    font-weight: bold;
+    text-shadow: 0.0725em 0.0725em 0 #0E0D0C, -0.0725em -0.0725em 0 #0E0D0C;
+}
+
+.doorkliklink {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 15em;
+    width: 20em;
+    padding: 1em; 
+    padding-top: 3em; 
+    margin: 0 auto; 
+    
+}
+
+.doorkliklink img {
+    width: 14em;
+    height: 14em;
+    object-fit: contain;
+    margin-bottom: 1em; 
+}
+
+.doorkliklink h2 {
+    font-family: montserrat;
+    font-size: 2em; 
+    margin: 0;
+    padding-bottom: 0.1em; 
+}
+
+.doorkliklink p {
+    font-family: opensans;
+    margin: 0;
+    font-size: 0.8em; 
+    text-align: center;
+    color: #0E0D0C;
+    font-weight: bold;
+    padding: 0.5em; 
+    order: 2;
+    margin-bottom: 1em;
+    width: 29em;
+    border-bottom: 0.3em solid #0E0D0C;
+}
+
+.voordelen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.voordelen h2 {
+    font-family: montserrat;
+    font-size: 2em;
+    margin: 0.5em 0; 
+}
+
+.voordelen h3 {
+    font-family: montserrat;
+    margin: 0;
+}
+
+.voordelen li {
+    list-style: none; 
+    border: 0.2em solid #0E0D0C;
+    border-radius: 0.9em;
+    background-color: #EF5F2E;
+    margin: 1em 0; 
+    padding: 1em; 
+    align-items: center;
+}
+
+.voordelen p {
+    font-family: opensans;
+}
+
+.handleiding-main {
+    margin-top: 7em;
+    padding: 1em;
+}
+
+.handleidingen-h1{
+    font-family: montserrat;
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+.handleiding-box {
+    display: flex;
+    background-color: #EF5F2E;
+    border: 0.2em solid #0E0D0C;
+    border-radius: 1em;
+    margin: 1.5em;
+    padding: 0.5em;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.handleiding-box:hover {
+    transform: scale(1.05);
+}
+
+.handleiding-box img {
+    width: 8em; 
+    height: 8em; 
+    object-fit: cover;
+    border-radius: 1em 0 0 1em;
+    margin-right: 1em;
+}
+
+.handleiding-info {
+    flex: 1;
+}
+
+.handleiding-info h2 {
+    font-family: montserrat;
+    font-size: 0.7em;
+    color: #BFD3C1;
+    text-shadow: 0.0625em 0.0625em 0 #0E0D0C, -0.0625em -0.0625em 0 #0E0D0C;
+    margin: 0;
+}
+
+.handleiding-info p {
+    font-family: opensans;
+    font-size: 0.5em;
+    margin: 0.5em 0;
+    color: #0E0D0C;
+    font-weight: bold;
+}
+
+.artikel {
+    background-color: #BFD3C1;
+    border: 0.2em solid #0E0D0C;
+    border-radius: 0.9em;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin: 1em;
+    margin-top: 9em;
+}
+
+.artikel h1 {
+    font-family: montserrat;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.artikel ul {
+    text-align: left;
+    font-family: opensans;
+}
+
+.artikel ol {
+    text-align: left;
+    font-family: opensans;
+}
+
+.artikel h2 {
+    font-family: montserrat;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.terug-knop {
+    background-color: #EF5F2E;
+    color: #BFD3C1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-family: montserrat;
+    font-size: 1em;
+    width: 60%;
+    margin: 1em auto 2em;
+}
+
+.terug-knop:hover {
+    background-color: #F15E2D;
+}
