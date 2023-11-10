@@ -44,12 +44,46 @@ header {
 }
 
 footer {
+    display: flex;
     background-color: #326273;
     margin: 0;
     padding: 1em 0;
     height: 4em;
     border-top: 0.2em solid #0E0D0C;
-}
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  footer li {
+    align-items: center;
+  }
+  
+  footer li img {
+    width: 4em;
+    height: 4em;
+    object-fit: contain;
+    align-self: center;
+    margin-top: 0.5em;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .footer-contact {
+    margin-left: 0;
+  }
+  
+  .footer-logo {
+    margin-left: auto;
+    margin-left: 10.5em;
+  }
 
 .logo {
     width: 20em;
@@ -106,11 +140,15 @@ html, body {
     
 }
 
+.doorkliklink a {
+    text-decoration: none;
+    color: #0E0D0C;
+}
+
 .doorkliklink img {
     width: 14em;
     height: 14em;
     object-fit: contain;
-    margin-bottom: 1em; 
 }
 
 .doorkliklink h2 {
@@ -340,3 +378,32 @@ html, body {
     font-weight: bold;
     text-align: left;
 }
+
+.contact-main {
+    margin-top: 10em;
+  }
+
+  .contact-h1 {
+    font-family: montserrat;
+  } 
+
+  .contact-place {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: calc(100vw - 2em);
+  }
+  
+  .contact-place img {
+    width: 6em;
+    height: 6em;
+    order: -1;
+    margin-left: 2em;
+  }
+  
+  .contact-place h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-family: montserrat;
+    margin-left: 2em;
+  }
